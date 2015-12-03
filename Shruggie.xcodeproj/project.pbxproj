@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFA8F5351C10D0F00017BE91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA8F5341C10D0F00017BE91 /* AppDelegate.swift */; };
+		FFA8F5371C10D0F00017BE91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA8F5361C10D0F00017BE91 /* Images.xcassets */; };
+		FFA8F53A1C10D0F00017BE91 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA8F5381C10D0F00017BE91 /* MainMenu.xib */; };
+		FFA8F5461C10D0F00017BE91 /* ShruggieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA8F5451C10D0F00017BE91 /* ShruggieTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFA8F5401C10D0F00017BE91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFA8F5271C10D0F00017BE91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFA8F52E1C10D0F00017BE91;
+			remoteInfo = Shruggie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFA8F52F1C10D0F00017BE91 /* Shruggie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shruggie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA8F5331C10D0F00017BE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA8F5341C10D0F00017BE91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFA8F5361C10D0F00017BE91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFA8F5391C10D0F00017BE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FFA8F53F1C10D0F00017BE91 /* ShruggieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShruggieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA8F5441C10D0F00017BE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA8F5451C10D0F00017BE91 /* ShruggieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShruggieTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFA8F52C1C10D0F00017BE91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA8F53C1C10D0F00017BE91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFA8F5261C10D0F00017BE91 = {
+			isa = PBXGroup;
+			children = (
+				FFA8F5311C10D0F00017BE91 /* Shruggie */,
+				FFA8F5421C10D0F00017BE91 /* ShruggieTests */,
+				FFA8F5301C10D0F00017BE91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFA8F5301C10D0F00017BE91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFA8F52F1C10D0F00017BE91 /* Shruggie.app */,
+				FFA8F53F1C10D0F00017BE91 /* ShruggieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA8F5311C10D0F00017BE91 /* Shruggie */ = {
+			isa = PBXGroup;
+			children = (
+				FFA8F5341C10D0F00017BE91 /* AppDelegate.swift */,
+				FFA8F5361C10D0F00017BE91 /* Images.xcassets */,
+				FFA8F5381C10D0F00017BE91 /* MainMenu.xib */,
+				FFA8F5321C10D0F00017BE91 /* Supporting Files */,
+			);
+			path = Shruggie;
+			sourceTree = "<group>";
+		};
+		FFA8F5321C10D0F00017BE91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA8F5331C10D0F00017BE91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFA8F5421C10D0F00017BE91 /* ShruggieTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFA8F5451C10D0F00017BE91 /* ShruggieTests.swift */,
+				FFA8F5431C10D0F00017BE91 /* Supporting Files */,
+			);
+			path = ShruggieTests;
+			sourceTree = "<group>";
+		};
+		FFA8F5431C10D0F00017BE91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA8F5441C10D0F00017BE91 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFA8F52E1C10D0F00017BE91 /* Shruggie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA8F5491C10D0F00017BE91 /* Build configuration list for PBXNativeTarget "Shruggie" */;
+			buildPhases = (
+				FFA8F52B1C10D0F00017BE91 /* Sources */,
+				FFA8F52C1C10D0F00017BE91 /* Frameworks */,
+				FFA8F52D1C10D0F00017BE91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shruggie;
+			productName = Shruggie;
+			productReference = FFA8F52F1C10D0F00017BE91 /* Shruggie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFA8F53E1C10D0F00017BE91 /* ShruggieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA8F54C1C10D0F00017BE91 /* Build configuration list for PBXNativeTarget "ShruggieTests" */;
+			buildPhases = (
+				FFA8F53B1C10D0F00017BE91 /* Sources */,
+				FFA8F53C1C10D0F00017BE91 /* Frameworks */,
+				FFA8F53D1C10D0F00017BE91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA8F5411C10D0F00017BE91 /* PBXTargetDependency */,
+			);
+			name = ShruggieTests;
+			productName = ShruggieTests;
+			productReference = FFA8F53F1C10D0F00017BE91 /* ShruggieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFA8F5271C10D0F00017BE91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Mitch Eaton";
+				TargetAttributes = {
+					FFA8F52E1C10D0F00017BE91 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					FFA8F53E1C10D0F00017BE91 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FFA8F52E1C10D0F00017BE91;
+					};
+				};
+			};
+			buildConfigurationList = FFA8F52A1C10D0F00017BE91 /* Build configuration list for PBXProject "Shruggie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFA8F5261C10D0F00017BE91;
+			productRefGroup = FFA8F5301C10D0F00017BE91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFA8F52E1C10D0F00017BE91 /* Shruggie */,
+				FFA8F53E1C10D0F00017BE91 /* ShruggieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFA8F52D1C10D0F00017BE91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA8F5371C10D0F00017BE91 /* Images.xcassets in Resources */,
+				FFA8F53A1C10D0F00017BE91 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA8F53D1C10D0F00017BE91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFA8F52B1C10D0F00017BE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA8F5351C10D0F00017BE91 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA8F53B1C10D0F00017BE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA8F5461C10D0F00017BE91 /* ShruggieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFA8F5411C10D0F00017BE91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFA8F52E1C10D0F00017BE91 /* Shruggie */;
+			targetProxy = FFA8F5401C10D0F00017BE91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFA8F5381C10D0F00017BE91 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFA8F5391C10D0F00017BE91 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFA8F5471C10D0F00017BE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFA8F5481C10D0F00017BE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FFA8F54A1C10D0F00017BE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Shruggie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFA8F54B1C10D0F00017BE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Shruggie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFA8F54D1C10D0F00017BE91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShruggieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shruggie.app/Contents/MacOS/Shruggie";
+			};
+			name = Debug;
+		};
+		FFA8F54E1C10D0F00017BE91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShruggieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shruggie.app/Contents/MacOS/Shruggie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFA8F52A1C10D0F00017BE91 /* Build configuration list for PBXProject "Shruggie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA8F5471C10D0F00017BE91 /* Debug */,
+				FFA8F5481C10D0F00017BE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA8F5491C10D0F00017BE91 /* Build configuration list for PBXNativeTarget "Shruggie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA8F54A1C10D0F00017BE91 /* Debug */,
+				FFA8F54B1C10D0F00017BE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFA8F54C1C10D0F00017BE91 /* Build configuration list for PBXNativeTarget "ShruggieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA8F54D1C10D0F00017BE91 /* Debug */,
+				FFA8F54E1C10D0F00017BE91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFA8F5271C10D0F00017BE91 /* Project object */;
+}
